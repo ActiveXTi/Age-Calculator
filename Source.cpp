@@ -2,7 +2,6 @@
 
 int main()
 {
-	int age;
 	int year;
 	int month;
 	int day;
@@ -13,11 +12,11 @@ int main()
 	int today;
 	int toyear;
 
-	std::cout << "´ç½ÅÀÇ »ı³â¿ùÀÏÀ» Â÷·Ê´ë·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä. (³â-¿ù-ÀÏ ¼ø, ÇÏ³ª¾¿ Ä¡°í ¿£ÅÍ)" << std::endl;
+	std::cout << "ë‹¹ì‹ ì˜ ìƒë…„ì›”ì¼ì„ ì°¨ë¡€ëŒ€ë¡œ ì…ë ¥í•´ ì£¼ì„¸ìš”. (ë…„-ì›”-ì¼ ìˆœ, í•˜ë‚˜ì”© ì¹˜ê³  ì—”í„°)" << std::endl;
 	std::cin >> year;
 	std::cin >> month;
 	std::cin >> day;
-	std::cout << "ÇöÀçÀÇ ³¯Â¥¸¦ ¼ø¼­´ë·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä. (³â-¿ù-ÀÏ ¼ø, ÇÏ³ª¾¿ Ä¡°í ¿£ÅÍ)" << std::endl	;
+	std::cout << "í˜„ì¬ì˜ ë‚ ì§œë¥¼ ìˆœì„œëŒ€ë¡œ ì…ë ¥í•´ ì£¼ì„¸ìš”. (ë…„-ì›”-ì¼ ìˆœ, í•˜ë‚˜ì”© ì¹˜ê³  ì—”í„°)" << std::endl	;
 	std::cin >> toyear;
 	std::cin >> tomonth;
 	std::cin >> today;
@@ -29,6 +28,6 @@ int main()
 	if (resultd < 0)
 		resultd = resultd + 30;
 
-	std::cout << "´ç½ÅÀº " << resulty << " ³â "  << resultm << " °³¿ù " << resultd << " ÀÏ µ¿¾È »ì¾Æ¿Ô½À´Ï´Ù." << std::endl;
+	std::cout << "ë‹¹ì‹ ì€ " << resulty << " ë…„ "  << resultm << " ê°œì›” " << resultd << " ì¼ ë™ì•ˆ ì‚´ì•„ì™”ìŠµë‹ˆë‹¤." << std::endl;
 	return 0;	
 }
